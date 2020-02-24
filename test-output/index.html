@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Verifiabil_Application_Automation" class="navigator-link">
+              <span class="suite-name border-passed">Verifiabil Application Automation</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Verifiabil_Application_Automation" class="navigator-link ">
+                    <span>C:\workspacenew\Verfiabiltest\src\main\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Verifiabil_Application_Automation" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Verifiabil_Application_Automation" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Verifiabil_Application_Automation" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Verifiabil_Application_Automation" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Verifiabil_Application_Automation" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Verifiabil_Application_Automation" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">25 methods,   25 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Verifiabil_Application_Automation" class="hide-methods passed suite-Verifiabil_Application_Automation"> (hide)</a> <!-- hide-methods passed suite-Verifiabil_Application_Automation -->
+                      <a href="#" panel-name="suite-Verifiabil_Application_Automation" class="show-methods passed suite-Verifiabil_Application_Automation"> (show)</a> <!-- show-methods passed suite-Verifiabil_Application_Automation -->
+                    </span>
+                    <div class="method-list-content passed suite-Verifiabil_Application_Automation">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verifiabil_Application_Automation" title="com.verfiabil.qa.testcases.Smoketests" class="method navigator-link" hash-for-method="verifyAccountnumbergclink">verifyAccountnumbergclink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verifiabil_Application_Automation" title="com.verfiabil.qa.testcases.Smoketests" class="method navigator-link" hash-for-method="verifyAddBrokerLink">verifyAddBrokerLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verifiabil_Application_Automation" title="com.verfiabil.qa.testcases.Smoketests" class="method navigator-link" hash-for-method="verifyAddGroupLink">verifyAddGroupLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verifiabil_Application_Automation" title="com.verfiabil.qa.testcases.Smoketests" class="method navigator-link" hash-for-method="verifyAuditlogsgclink">verifyAuditlogsgclink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verifiabil_Application_Automation" title="com.verfiabil.qa.testcases.Smoketests" class="method navigator-link" hash-for-method="verifyBillinglink">verifyBillinglink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verifiabil_Application_Automation" title="com.verfiabil.qa.testcases.Smoketests" class="method navigator-link" hash-for-method="verifyCarrierinvoicesummarygclink">verifyCarrierinvoicesummarygclink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verifiabil_Application_Automation" title="com.verfiabil.qa.testcases.Smoketests" class="method navigator-link" hash-for-method="verifyCarriermanagementgclink">verifyCarriermanagementgclink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verifiabil_Application_Automation" title="com.verfiabil.qa.testcases.Smoketests" class="method navigator-link" hash-for-method="verifyCostallocationgclink">verifyCostallocationgclink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verifiabil_Application_Automation" title="com.verfiabil.qa.testcases.Smoketests" class="method navigator-link" hash-for-method="verifyDiscrepanciesgclink">verifyDiscrepanciesgclink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verifiabil_Application_Automation" title="com.verfiabil.qa.testcases.Smoketests" class="method navigator-link" hash-for-method="verifyFollowupdiscrepancylink">verifyFollowupdiscrepancylink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verifiabil_Application_Automation" title="com.verfiabil.qa.testcases.Smoketests" class="method navigator-link" hash-for-method="verifyHomePageTitleTest">verifyHomePageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verifiabil_Application_Automation" title="com.verfiabil.qa.testcases.Smoketests" class="method navigator-link" hash-for-method="verifyImportbenadmindatagclink">verifyImportbenadmindatagclink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verifiabil_Application_Automation" title="com.verfiabil.qa.testcases.Smoketests" class="method navigator-link" hash-for-method="verifyImportcarrierdatagclink">verifyImportcarrierdatagclink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verifiabil_Application_Automation" title="com.verfiabil.qa.testcases.Smoketests" class="method navigator-link" hash-for-method="verifyMaintainencegclink">verifyMaintainencegclink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verifiabil_Application_Automation" title="com.verfiabil.qa.testcases.Smoketests" class="method navigator-link" hash-for-method="verifyNodiscreapnciesgclink">verifyNodiscreapnciesgclink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verifiabil_Application_Automation" title="com.verfiabil.qa.testcases.Smoketests" class="method navigator-link" hash-for-method="verifyOtherreportsgclink">verifyOtherreportsgclink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verifiabil_Application_Automation" title="com.verfiabil.qa.testcases.Smoketests" class="method navigator-link" hash-for-method="verifyResolvenamemismatchgclink">verifyResolvenamemismatchgclink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verifiabil_Application_Automation" title="com.verfiabil.qa.testcases.Smoketests" class="method navigator-link" hash-for-method="verifyReviewinvoicegclink">verifyReviewinvoicegclink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verifiabil_Application_Automation" title="com.verfiabil.qa.testcases.Smoketests" class="method navigator-link" hash-for-method="verifyRolesgclink">verifyRolesgclink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verifiabil_Application_Automation" title="com.verfiabil.qa.testcases.Smoketests" class="method navigator-link" hash-for-method="verifySelfcostplangclink">verifySelfcostplangclink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verifiabil_Application_Automation" title="com.verfiabil.qa.testcases.Smoketests" class="method navigator-link" hash-for-method="verifyServicefeegclink">verifyServicefeegclink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verifiabil_Application_Automation" title="com.verfiabil.qa.testcases.Smoketests" class="method navigator-link" hash-for-method="verifySettingsgclink">verifySettingsgclink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verifiabil_Application_Automation" title="com.verfiabil.qa.testcases.Smoketests" class="method navigator-link" hash-for-method="verifyTenantsheader">verifyTenantsheader</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verifiabil_Application_Automation" title="com.verfiabil.qa.testcases.Smoketests" class="method navigator-link" hash-for-method="verifyUploadcustomreportgclink">verifyUploadcustomreportgclink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verifiabil_Application_Automation" title="com.verfiabil.qa.testcases.Smoketests" class="method navigator-link" hash-for-method="verifyUsersgclink">verifyUsersgclink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Verifiabil_Application_Automation -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Verifiabil_Application_Automation" class="panel Verifiabil_Application_Automation">
+          <div class="suite-Verifiabil_Application_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.verfiabil.qa.testcases.Smoketests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccountnumbergclink">
+                  </a> <!-- verifyAccountnumbergclink -->
+                  <span class="method-name">verifyAccountnumbergclink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddBrokerLink">
+                  </a> <!-- verifyAddBrokerLink -->
+                  <span class="method-name">verifyAddBrokerLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddGroupLink">
+                  </a> <!-- verifyAddGroupLink -->
+                  <span class="method-name">verifyAddGroupLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAuditlogsgclink">
+                  </a> <!-- verifyAuditlogsgclink -->
+                  <span class="method-name">verifyAuditlogsgclink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBillinglink">
+                  </a> <!-- verifyBillinglink -->
+                  <span class="method-name">verifyBillinglink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCarrierinvoicesummarygclink">
+                  </a> <!-- verifyCarrierinvoicesummarygclink -->
+                  <span class="method-name">verifyCarrierinvoicesummarygclink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCarriermanagementgclink">
+                  </a> <!-- verifyCarriermanagementgclink -->
+                  <span class="method-name">verifyCarriermanagementgclink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCostallocationgclink">
+                  </a> <!-- verifyCostallocationgclink -->
+                  <span class="method-name">verifyCostallocationgclink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDiscrepanciesgclink">
+                  </a> <!-- verifyDiscrepanciesgclink -->
+                  <span class="method-name">verifyDiscrepanciesgclink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFollowupdiscrepancylink">
+                  </a> <!-- verifyFollowupdiscrepancylink -->
+                  <span class="method-name">verifyFollowupdiscrepancylink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePageTitleTest">
+                  </a> <!-- verifyHomePageTitleTest -->
+                  <span class="method-name">verifyHomePageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyImportbenadmindatagclink">
+                  </a> <!-- verifyImportbenadmindatagclink -->
+                  <span class="method-name">verifyImportbenadmindatagclink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyImportcarrierdatagclink">
+                  </a> <!-- verifyImportcarrierdatagclink -->
+                  <span class="method-name">verifyImportcarrierdatagclink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMaintainencegclink">
+                  </a> <!-- verifyMaintainencegclink -->
+                  <span class="method-name">verifyMaintainencegclink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNodiscreapnciesgclink">
+                  </a> <!-- verifyNodiscreapnciesgclink -->
+                  <span class="method-name">verifyNodiscreapnciesgclink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyOtherreportsgclink">
+                  </a> <!-- verifyOtherreportsgclink -->
+                  <span class="method-name">verifyOtherreportsgclink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyResolvenamemismatchgclink">
+                  </a> <!-- verifyResolvenamemismatchgclink -->
+                  <span class="method-name">verifyResolvenamemismatchgclink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyReviewinvoicegclink">
+                  </a> <!-- verifyReviewinvoicegclink -->
+                  <span class="method-name">verifyReviewinvoicegclink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRolesgclink">
+                  </a> <!-- verifyRolesgclink -->
+                  <span class="method-name">verifyRolesgclink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySelfcostplangclink">
+                  </a> <!-- verifySelfcostplangclink -->
+                  <span class="method-name">verifySelfcostplangclink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyServicefeegclink">
+                  </a> <!-- verifyServicefeegclink -->
+                  <span class="method-name">verifyServicefeegclink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySettingsgclink">
+                  </a> <!-- verifySettingsgclink -->
+                  <span class="method-name">verifySettingsgclink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTenantsheader">
+                  </a> <!-- verifyTenantsheader -->
+                  <span class="method-name">verifyTenantsheader</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUploadcustomreportgclink">
+                  </a> <!-- verifyUploadcustomreportgclink -->
+                  <span class="method-name">verifyUploadcustomreportgclink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUsersgclink">
+                  </a> <!-- verifyUsersgclink -->
+                  <span class="method-name">verifyUsersgclink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Verifiabil_Application_Automation-class-passed -->
+        </div> <!-- panel Verifiabil_Application_Automation -->
+        <div panel-name="test-xml-Verifiabil_Application_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\workspacenew\Verfiabiltest\src\main\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Verifiabil Application Automation&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.verfiabil.qa.ExtentReportListener.ExtentReportListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Verifiabil Test Cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.verfiabil.qa.testcases.Smoketests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verifiabil Test Cases --&gt;
+&lt;/suite&gt; &lt;!-- Verifiabil Application Automation --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Verifiabil_Application_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Verifiabil Application Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Verifiabil Test Cases (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Verifiabil_Application_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Verifiabil Application Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Verifiabil_Application_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Verifiabil Application Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Verifiabil_Application_Automation');
+function tableData_Verifiabil_Application_Automation() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(25);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyOtherreportsgclink')
+data.setCell(0, 2, 'com.verfiabil.qa.testcases.Smoketests')
+data.setCell(0, 3, 8874);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyAddGroupLink')
+data.setCell(1, 2, 'com.verfiabil.qa.testcases.Smoketests')
+data.setCell(1, 3, 7893);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyCarrierinvoicesummarygclink')
+data.setCell(2, 2, 'com.verfiabil.qa.testcases.Smoketests')
+data.setCell(2, 3, 7727);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyAddBrokerLink')
+data.setCell(3, 2, 'com.verfiabil.qa.testcases.Smoketests')
+data.setCell(3, 3, 7680);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyCostallocationgclink')
+data.setCell(4, 2, 'com.verfiabil.qa.testcases.Smoketests')
+data.setCell(4, 3, 7508);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyUsersgclink')
+data.setCell(5, 2, 'com.verfiabil.qa.testcases.Smoketests')
+data.setCell(5, 3, 7455);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyMaintainencegclink')
+data.setCell(6, 2, 'com.verfiabil.qa.testcases.Smoketests')
+data.setCell(6, 3, 7448);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyServicefeegclink')
+data.setCell(7, 2, 'com.verfiabil.qa.testcases.Smoketests')
+data.setCell(7, 3, 7306);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyAuditlogsgclink')
+data.setCell(8, 2, 'com.verfiabil.qa.testcases.Smoketests')
+data.setCell(8, 3, 7282);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifySettingsgclink')
+data.setCell(9, 2, 'com.verfiabil.qa.testcases.Smoketests')
+data.setCell(9, 3, 7193);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyAccountnumbergclink')
+data.setCell(10, 2, 'com.verfiabil.qa.testcases.Smoketests')
+data.setCell(10, 3, 7144);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyUploadcustomreportgclink')
+data.setCell(11, 2, 'com.verfiabil.qa.testcases.Smoketests')
+data.setCell(11, 3, 7133);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyBillinglink')
+data.setCell(12, 2, 'com.verfiabil.qa.testcases.Smoketests')
+data.setCell(12, 3, 7121);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyRolesgclink')
+data.setCell(13, 2, 'com.verfiabil.qa.testcases.Smoketests')
+data.setCell(13, 3, 7074);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyFollowupdiscrepancylink')
+data.setCell(14, 2, 'com.verfiabil.qa.testcases.Smoketests')
+data.setCell(14, 3, 6932);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyImportcarrierdatagclink')
+data.setCell(15, 2, 'com.verfiabil.qa.testcases.Smoketests')
+data.setCell(15, 3, 6914);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyNodiscreapnciesgclink')
+data.setCell(16, 2, 'com.verfiabil.qa.testcases.Smoketests')
+data.setCell(16, 3, 6903);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifySelfcostplangclink')
+data.setCell(17, 2, 'com.verfiabil.qa.testcases.Smoketests')
+data.setCell(17, 3, 6899);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyDiscrepanciesgclink')
+data.setCell(18, 2, 'com.verfiabil.qa.testcases.Smoketests')
+data.setCell(18, 3, 6859);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyResolvenamemismatchgclink')
+data.setCell(19, 2, 'com.verfiabil.qa.testcases.Smoketests')
+data.setCell(19, 3, 6827);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyReviewinvoicegclink')
+data.setCell(20, 2, 'com.verfiabil.qa.testcases.Smoketests')
+data.setCell(20, 3, 6669);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyImportbenadmindatagclink')
+data.setCell(21, 2, 'com.verfiabil.qa.testcases.Smoketests')
+data.setCell(21, 3, 6440);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyCarriermanagementgclink')
+data.setCell(22, 2, 'com.verfiabil.qa.testcases.Smoketests')
+data.setCell(22, 3, 6399);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyTenantsheader')
+data.setCell(23, 2, 'com.verfiabil.qa.testcases.Smoketests')
+data.setCell(23, 3, 6391);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifyHomePageTitleTest')
+data.setCell(24, 2, 'com.verfiabil.qa.testcases.Smoketests')
+data.setCell(24, 3, 21);
+window.suiteTableData['Verifiabil_Application_Automation']= { tableData: data, tableDiv: 'times-div-Verifiabil_Application_Automation'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Verifiabil_Application_Automation">
+              </div> <!-- times-div-Verifiabil_Application_Automation -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Verifiabil_Application_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Verifiabil Application Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Verifiabil_Application_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Verifiabil_Application_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.verfiabil.qa.testcases.Smoketests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePageTitleTest</span>
+                <span class="method-start">17992 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18019 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">18754 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTenantsheader</span>
+                <span class="method-start">34598 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">40990 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">41720 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAddGroupLink</span>
+                <span class="method-start">58022 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">65918 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">66663 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAddBrokerLink</span>
+                <span class="method-start">82602 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">90284 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">91068 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRolesgclink</span>
+                <span class="method-start">107231 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">114307 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">114993 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUsersgclink</span>
+                <span class="method-start">130986 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">138443 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">139110 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAuditlogsgclink</span>
+                <span class="method-start">155278 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">162562 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">163244 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyMaintainencegclink</span>
+                <span class="method-start">179391 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">186841 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">187526 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySettingsgclink</span>
+                <span class="method-start">203188 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">210383 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">211217 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCarriermanagementgclink</span>
+                <span class="method-start">227752 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">234152 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">234925 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAccountnumbergclink</span>
+                <span class="method-start">250663 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">257811 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">258601 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyServicefeegclink</span>
+                <span class="method-start">280519 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">287828 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">288609 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySelfcostplangclink</span>
+                <span class="method-start">304346 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">311246 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">312036 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyImportcarrierdatagclink</span>
+                <span class="method-start">328339 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">335254 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">335966 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyImportbenadmindatagclink</span>
+                <span class="method-start">351800 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">358242 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">358959 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyReviewinvoicegclink</span>
+                <span class="method-start">376855 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">383526 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">384199 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyResolvenamemismatchgclink</span>
+                <span class="method-start">400624 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">407452 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">408125 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyDiscrepanciesgclink</span>
+                <span class="method-start">423758 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">430618 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">431313 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFollowupdiscrepancylink</span>
+                <span class="method-start">446897 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">453832 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">454578 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyNodiscreapnciesgclink</span>
+                <span class="method-start">472218 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">479124 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">479862 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBillinglink</span>
+                <span class="method-start">495574 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">502696 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">503454 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCarrierinvoicesummarygclink</span>
+                <span class="method-start">521661 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">529388 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">530120 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCostallocationgclink</span>
+                <span class="method-start">546494 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">554003 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">554747 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUploadcustomreportgclink</span>
+                <span class="method-start">570248 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">577382 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">578149 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyOtherreportsgclink</span>
+                <span class="method-start">595504 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">604378 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
