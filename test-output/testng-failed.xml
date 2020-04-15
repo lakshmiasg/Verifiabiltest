@@ -3,37 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.verfiabil.qa.testcases.Smoketests">
+      <class name="com.verfiabil.qa.testcases.LoginPageTest">
         <methods>
-          <include name="verifyBillinglink"/>
+          <include name="loginTest"/>
           <include name="setUp"/>
-          <include name="verifyServicefeegclink"/>
-          <include name="verifyUsersgclink"/>
-          <include name="verifyUploadcustomreportgclink"/>
-          <include name="verifyTenantsheader"/>
-          <include name="verifyDiscrepanciesgclink"/>
-          <include name="verifyReviewinvoicegclink"/>
-          <include name="verifyHomePageTitleTest"/>
-          <include name="verifyFollowupdiscrepancylink"/>
-          <include name="verifyOtherreportsgclink"/>
-          <include name="verifyCarriermanagementgclink"/>
-          <include name="verifyRolesgclink"/>
-          <include name="verifyResolvenamemismatchgclink"/>
-          <include name="verifySelfcostplangclink"/>
-          <include name="verifyNodiscreapnciesgclink"/>
-          <include name="verifyAddGroupLink"/>
-          <include name="verifyCarrierinvoicesummarygclink"/>
-          <include name="verifyImportcarrierdatagclink"/>
           <include name="tearDown"/>
-          <include name="verifyMaintainencegclink"/>
-          <include name="verifyAddBrokerLink"/>
-          <include name="verifyImportbenadmindatagclink"/>
-          <include name="verifyAuditlogsgclink"/>
-          <include name="verifySettingsgclink"/>
-          <include name="verifyAccountnumbergclink"/>
-          <include name="verifyCostallocationgclink"/>
         </methods>
-      </class> <!-- com.verfiabil.qa.testcases.Smoketests -->
+      </class> <!-- com.verfiabil.qa.testcases.LoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

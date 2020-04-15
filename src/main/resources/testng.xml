@@ -10,7 +10,7 @@
 	<test name="Verifiabil Test Cases">
 		<classes>
 
-			<class name="com.verfiabil.qa.testcases.Smoketests"></class>
+			<class name="com.verfiabil.qa.testcases.LoginPagetest.java"></class>
 
 		</classes>
 	</test>

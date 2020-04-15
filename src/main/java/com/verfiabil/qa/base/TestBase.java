@@ -26,7 +26,7 @@ public class TestBase {
 
 	   try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("C:\\workspacenew\\Verfiabiltest\\src\\main\\java\\com\\verfiabil\\qa\\config\\config.properties");
+			FileInputStream ip = new FileInputStream("C:\\Users\\LakshmiKolachina\\git1\\Verifiabiltest\\src\\main\\java\\com\\verfiabil\\qa\\config\\config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
