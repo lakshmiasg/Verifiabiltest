@@ -1,0 +1,8 @@
+com\verfiabil\qa\base\TestBase.class
+com\verfiabil\qa\pages\GroupCreationPage.class
+com\verfiabil\qa\util\WebEventListener.class
+com\verfiabil\qa\pages\BrokerCreationPage.class
+com\verfiabil\qa\pages\VerfiabilHomePage.class
+com\verfiabil\qa\ExtentReportListener\ExtentReportListener.class
+com\verfiabil\qa\util\TestUtil.class
+com\verfiabil\qa\pages\LoginPage.class
